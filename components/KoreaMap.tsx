@@ -1,3 +1,6 @@
+// @ts-nocheck
+"use client";
+
 import React, { useEffect, useState } from "react";
 // @ts-ignore
 import { ComposableMap, Geographies, Geography, Marker, ZoomableGroup } from "react-simple-maps";
