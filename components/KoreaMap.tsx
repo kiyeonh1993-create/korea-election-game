@@ -94,10 +94,6 @@ const KoreaMap: React.FC<KoreaMapProps> = ({ onRegionClick, regionVotes }) => {
                         center={[127.5, 36]}
                         minZoom={1}
                         maxZoom={5}
-                        translateExtent={[
-                            [123, 33], // 좌하단 (대략적)
-                            [133, 40], // 우상단 (대략적)
-                        ]}
                     >
                         <Geographies geography={geoData}>
                             {({ geographies }: { geographies: any[] }) => (
